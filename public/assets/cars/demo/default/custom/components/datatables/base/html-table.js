@@ -1,0 +1,1 @@
+var DatatableHtmlTableDemo=function(){var e=function(){$(".m-datatable").mDatatable({data:{pageSize:100}},{search:{input:$("#generalSearch")}})};return{init:function(){e()}}}();jQuery(document).ready(function(){DatatableHtmlTableDemo.init()});

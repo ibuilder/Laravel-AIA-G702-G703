@@ -1,0 +1,29 @@
+
+
+.fixed_header{
+    /*width: 400px;*/
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+    display:block;
+    width: 100%;
+    overflow: auto;
+    height: 550px;
+}
+
+.fixed_header thead tr {
+    display: block;
+}
+
+.fixed_header thead {
+    background: black;
+    color:#fff;
+}
+
+.fixed_header th.car, .fixed_header td.car {
+    padding: 5px;
+    text-align: left;
+    width: 300px;
+}

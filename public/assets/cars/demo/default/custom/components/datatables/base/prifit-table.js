@@ -1,0 +1,4 @@
+var DatatableHtmlTableDemo=function(){var e=function(){$(".m-datatable").mDatatable({search:{input:$("#generalSearch")},columns:[{field:" ",type:"text",width:25,},{field:"Einkauf Datum",type:"data",width:100,format:"DD.MM.YYYY"},{field:"Fahrzeug",sortable:"asc",type:"text",width:110},{field:"FIN",type:"text",width:100},{field:"Einkauf Netto",type:"text",width:90},{field:"Einkauf-Brutto",type:"text",width:90},{field:"§25a",type:"text",width:60,textAlign:'center'},{field:"Verkauf Datum",type:"data",width:100,format:"DD.MM.YYYY"},{field:"Verkauf Brutto",type:"text",width:100},{field:"Verkauf Netto",type:"text",width:100},{field:"Netto Gewinn",type:"text",width:100}],data:{pageSize:100}})};
+return{init:function(){e()}}}();
+
+jQuery(document).ready(function(){DatatableHtmlTableDemo.init();});

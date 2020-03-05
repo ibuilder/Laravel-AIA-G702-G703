@@ -1,0 +1,17 @@
+[22-Jan-2020 03:02:28 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paidrqdf/retail.jb-motors.paidtweetads.com/config.php on line 6
+[22-Jan-2020 03:19:12 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paidrqdf/retail.jb-motors.paidtweetads.com/config.php on line 6
+[22-Jan-2020 03:24:50 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paidrqdf/retail.jb-motors.paidtweetads.com/config.php on line 6
+[22-Jan-2020 09:01:11 America/New_York] PHP Notice:  Undefined variable: result in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 16
+[22-Jan-2020 12:54:24 America/New_York] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'paidrqdf_andrei'@'localhost' to database 'email_veri' in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 11
+[22-Jan-2020 12:54:24 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 14
+[22-Jan-2020 12:54:24 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 15
+[22-Jan-2020 12:54:53 America/New_York] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'paidrqdf_andrei'@'localhost' to database 'email_veri' in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 11
+[22-Jan-2020 12:54:53 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 14
+[22-Jan-2020 12:54:53 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/index.php on line 15
+[22-Jan-2020 15:47:42 America/New_York] PHP Notice:  Undefined index: id in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 3
+[22-Jan-2020 15:47:42 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'paidrqdf_andrei'@'localhost' (using password: YES) in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 10
+[22-Jan-2020 15:47:42 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 13
+[22-Jan-2020 16:56:56 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'paidrqdf_andrei'@'localhost' (using password: YES) in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 10
+[22-Jan-2020 16:56:56 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 13
+[22-Jan-2020 17:19:21 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'paidrqdf_andrei'@'localhost' (using password: YES) in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 10
+[22-Jan-2020 17:19:21 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/paidrqdf/retail.jb-motors.paidtweetads.com/data.php on line 13

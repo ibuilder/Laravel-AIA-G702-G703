@@ -1,0 +1,9 @@
+var DatatableHtmlTableDemo=function(){var e=function(){$(".m-datatable").mDatatable({search:{input:$("#generalSearch")},columns:[{field:" ",type:"text",width:25,},{field:"Anrede",type:"text",width:80},{field:"Vorname",type:"text",width:"200"},{field:"Nachname",type:"text",width:200},{field:"Geb.Datum",type:"data",width:80,format:"DD.MM.YYYY"},{field:"Telefon",type:"text",width:200},{field:"Telefax",type:"text",width:200},{field:"E-Mail",type:"text",width:200,},{field:"Webseite",type:"text",width:200},{field:"Straße",type:"text",width:200},{field:"Nummer",type:"text",width:200},{field:"Postleitzahl",type:"text",width:200},{field:"Stadt",type:"text",width:200},{field:"Land",type:"text",width:200},{field:"Adresszusatz",type:"text",width:200},{field:"Steuernummer",type:"text",width:200}],data:{pageSize:100}})};
+return{init:function(){e()}}}();
+jQuery(document).ready(function(){DatatableHtmlTableDemo.init();});
+ 
+// var DatatableHtmlTableDemo=function(){var e=function(){$(".m-datatable").mDatatable({search:{input:$("#generalSearch")},columns:[{field:"Ankaufdatum",type:"data",width:200,format:"DD.MM.YYYY"},{field:"Ankaufdatum",type:"text",width:110},{field:"Fahrzeugname",type:"text",width:110},{field:"FIn",type:"text",width:150},{field:"Erstzulassung",type:"data",format:"DD.MM.YYYY",width:200},{field:"Kilometer",type:"text",width:110},{field:"Kilowatt",type:"text",width:110},{field:"Standzeit",type:"text",width:110},{field:"Einkauf Name",type:"text",width:110},{field:"Ankaufpreis",type:"text",width:110},{field:"Verkaufsdatum",type:"text",width:110},{field:"Verkauf Name",type:"text",width:110},{field:"Verkaufspreis",type:"text",width:110},],data:{pageSize:200}})};
+
+
+// return{init:function(){e()}}}();
+// jQuery(document).ready(function(){DatatableHtmlTableDemo.init()}); 
