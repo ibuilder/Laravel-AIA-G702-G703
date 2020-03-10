@@ -630,16 +630,21 @@ table{
             <tr>
                 <td colspan="2">Project Totals:</td>
 
-                <td>$<span style="float:right;">@convert($total['scheduled'])</span></td>
+                <td>$<span style="float:right;">@convert($total['scheduled']-$total['o_scheduled'])</span></td>
                 <td></td>
-                <td>$<span style="float:right;">@convert($total['period'])</span></td>
+                <td>$<span style="float:right;">@convert($total['period']-$total['o_period'])</span></td>
                 <td></td>
-                <td>$<span style="float:right;">@convert($total['completed_total'])</span></td>
-                <td class="text-right">@convertp($total['gc_percent'])%</td>
-                <td>$<span style="float:right;">@convert($total['gc_balance'])</span></td>
+                <td>$<span style="float:right;">@convert($total['completed_total']-$total['o_completed_total'])</span></td>
+                @if($total['scheduled']-$total['o_scheduled'] != 0)
+                <td class="text-right">@convertp(($total['completed_total']-$total['o_completed_total'])/($total['scheduled']-$total['o_scheduled'])*100)%</td>
+                @else
+                <td>0</td>
+                @endif
+
+                <td>$<span style="float:right;">@convert($total['gc_balance']-$total['o_gc_balance'])</span></td>
                 <td></td>
                 <td></td>
-                <td>$<span style="float:right;">@convert($total['retainage'])</span></td>
+                <td>$<span style="float:right;">@convert($total['retainage']-$total['o_retainage'])</span></td>
             </tr>
 
         </table>

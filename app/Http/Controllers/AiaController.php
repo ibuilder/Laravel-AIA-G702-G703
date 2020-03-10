@@ -97,12 +97,12 @@ class AiaController extends Controller
         $total['gc_balance'] = $total['scheduled'] - $total['completed_total'] ;
         $total['retainage'] = $total['period']*$item_info->retainage/100;
 
-        if(!empty($item_info->scheduled_value)){
+        if(!empty($item_info->o_scheduled_value)){
 
-            foreach($item_info->scheduled_value as $key => $itemon){
-                $total['o_scheduled']+=$item_info->scheduled_value[$key];
-                $total['o_period']+=$item_info->scheduled_value[$key]*$item_info->bill_percentage[$key]/100;
-                $total['o_completed_total']+=$item_info->scheduled_value[$key]*$item_info->bill_percentage[$key]/100;
+            foreach($item_info->o_scheduled_value as $key => $itemon){
+                $total['o_scheduled']+=$item_info->o_scheduled_value[$key];
+                $total['o_period']+=$item_info->o_scheduled_value[$key]*$item_info->o_bill_percentage[$key]/100;
+                $total['o_completed_total']+=$item_info->o_scheduled_value[$key]*$item_info->o_bill_percentage[$key]/100;
 
             }
         }

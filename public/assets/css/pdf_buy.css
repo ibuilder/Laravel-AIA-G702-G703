@@ -1,0 +1,182 @@
+
+     @page {
+            margin: 120px 70px;
+            border:1px solid black;
+        }
+
+        /* buyer-date-box */
+        .buyer-date-box{
+
+        }
+
+        .buyer-info{
+            font-size: 14px;
+            width: 50%; display: inline-block;
+            margin-top:17px;
+
+        }
+        .image_div{
+            margin-top:13px;
+            width: 49%; display: inline-block;
+
+        }
+        .top-text-div{
+            width: 100%;
+            display: inline-block;
+            margin-top: 1px;
+            font-size: 13px;
+        }
+        .buyer-img{
+            width: 49%;
+            display: inline-block;
+            margin-top: 25px;
+        }
+
+        .buyer-group{
+            margin-top: -3px;
+
+        }
+
+        header {
+            position: fixed;
+            top: -40px;
+            left: 0px;
+            right: 0px;
+            height: 50px;
+
+            /** Extra personal styles **/
+          /*  background-color: #03a9f4;
+            color: white;
+            text-align: center;
+            line-height: 35px;*/
+        }
+
+        footer {
+            position: fixed;
+            bottom: -60px;
+            left: 0px;
+            right: 0px;
+            height: 50px;
+        }
+
+        .sign-div{
+            position: fixed;
+            bottom: -5px;
+            left: 0px;
+            right: 0px;
+            height: 35px;
+        }
+    .page-break {
+        page-break-after: always;
+    }
+    .bottom-info-font{
+        font-size:9px !important;
+    }
+    .deponat{
+        font-size: 11px !important;
+    }
+    /*.logo-invoice {
+        width: 20% !important;
+    }*/
+    .car-information{
+        font-size: 14px;
+    }
+    .add_info{
+        font-size:12px;
+    }
+    .add-info-item{
+        padding-top: 9px;
+    }
+    .add-info-item{
+        padding-top: 1px;
+    }
+
+    table{
+    border-collapse:collapse;
+    border-spacing: 0;
+    }
+    .bottom-info{
+        font-size: 10px;
+    }
+    /* car information */
+    .car-info-group{
+        margin-top: -4px;
+        width:630px !important;
+        display: block !important;
+    }
+    .car-info-1-top{
+        display: inline-block;
+        font-size: 14px;
+        width: 100px !important;
+        text-align:left;
+    }
+    .car-info-2-top{
+        text-align: left;
+        width: 500px !important;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .car-info-1{
+        display: inline-block;
+        font-size: 14px;
+        width: 100px;
+        text-align:left;
+    }
+    .car-info-2{
+        text-align: left;
+        width: 500px;
+        display: inline-block;
+        font-size: 14px;
+
+    }
+    /* end */
+
+    /* price calculate */
+   .cal-col-1{
+        width: 300px; display: inline-block ;
+        padding-left: 15px;
+        /*margin-top: -5px;*/
+        font-size: 13px;
+
+
+    }
+    .cal-col-2{
+        width: 89px; display: inline-block ;
+        font-size: 13px;
+
+
+    }
+    .cal-col-3{
+        width: 190px; display: inline-block ;text-align: right;
+        font-size: 13px;
+
+
+
+    }
+    .cal-col-middle{
+        width: 270px; display: inline-block;
+        text-align: right;
+        font-size: 13px;
+
+
+    }
+
+
+    /* bottom section */
+    .bottom-col1{
+
+        width: 200px; display: inline-block;margin-left: 10px;
+
+
+    }
+    .bottom-col2{
+
+        width: 90px; display: inline-block;
+
+    }
+    .bottom-col3{
+
+        width: 330px; display: inline-block;
+
+    }

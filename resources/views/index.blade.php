@@ -792,6 +792,7 @@ $('#create-aia-submit').click(function(e){
 })
 
 function format(item, state) {
+
   if (!item.id) {
     return item.text;
   }
@@ -968,6 +969,31 @@ $(function(){
 @if($errors->any())
     toastr.error('Please make sure your scheduled value');
 @endif
+function auto_scroll1(){
+    var width = $(document).width();
+    if(width >=1280){
+        $(document).scrollTop(1144);
+
+
+    } else if(width<1280 && width>768){
+        $(document).scrollTop(1324);
+    } else if(width<767 && width>320){
+        $(document).scrollTop(1324);
+    }
+}
+
+function auto_scroll2(){
+    var width = $(document).width();
+    if(width >=1280){
+        $(document).scrollTop(1444);
+
+
+    } else if(width<1280 && width>768){
+        $(document).scrollTop(1824);
+    } else if(width<767 && width>320){
+        $(document).scrollTop(1824);
+    }
+}
 
 
 
@@ -977,12 +1003,16 @@ $(document).ready(function() {
 
   $("#countries").select2({
 
+
     templateResult: function(item) {
+        auto_scroll1()
       return format(item, false);
     }
   });
   $("#countries2").select2({
+
     templateResult: function(item) {
+        auto_scroll2()
       return format(item, false);
     }
   });
